@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: -webkit-linear-gradient(270deg, #8ee5ee, #00b2ee);
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Free-HD-Gradient-Wallpapers-Download.png");
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+h1, h2, h3 {
+    font-family: "American Typewriter", serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.container {
+    font-family: "American Typewriter", serif;
+    text-align: center;
+    font-size: 500%;
+    color: rgba(30, 144, 255, 0.5);
+    position: absolute;
+    width: 100%;
+    margin-top: -6%;
+}
+
+h2 {
+    color: rgba(95, 158, 160, 0.3);
+    margin-top: 25%;
+}
+
+h3{
+    color: white;
+
+
+}
+
+
+p {
+    font-family: Avenir, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    max-width: 50%;
+    margin: 200px auto;
+
+}
+
+
+
+#water {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    top: 60%;
+    width: 100%;
+}
+
+
+/*test*/
+
+#T, #h, #i, #s {
+    display: inline-block;
+    position: relative;
+}
+
+#T:hover {
+    color: yellow;
+    margin-top: 10px;
+
+}
+#h:hover {
+    color: yellow;
+    padding-top: 10px;
+    margin: auto;
+}
+#i:hover {
+    color: yellow;
+    padding-top: 10px;
+    margin: auto;
+}
+#s:hover {
+    color: yellow;
+    padding-top: 10px;
+    margin: auto;
+}
+
+/*duck*/
+body { background-color:#000; }
+.left {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);^^f^^f
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.right {
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+#bee {
+    transition: transform .1s;
+    width: 15%;
+    margin-top: 80px;
+}
+
